@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package diseñomvc;
-import diseñomvc.Conexion;
+import Conexion.Conexion;
 import java.sql.SQLException;
 
 /**
