@@ -50,7 +50,6 @@ public class Conexion {
         Connection conn;
         String jdbcUrl = "jdbc:postgresql://"+this.hostname+":"+this.port+"/"+this.database;
         conn = DriverManager.getConnection(jdbcUrl, username, password);
-        System.out.println("Conexion establecida");
         return conn;
     }
 }

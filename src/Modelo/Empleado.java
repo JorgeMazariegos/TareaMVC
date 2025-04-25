@@ -4,18 +4,25 @@ package Modelo;
  *
  * @author i5
  */
-public class EmpleadoModelo {
+public class Empleado {
     private int id;
     private String nombre;
     private String apellido;
     private Double salario;
     private boolean estatus;
 
-    public EmpleadoModelo(){
+    public Empleado(){
         
     }
     
-    public EmpleadoModelo(int id, String nombre, String apellido, Double salario, boolean estatus) {
+    public Empleado(String nombre, String apellido, Double salario, boolean estatus){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.salario = salario;
+        this.estatus = estatus; 
+    }
+    
+    public Empleado(int id, String nombre, String apellido, Double salario, boolean estatus) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
