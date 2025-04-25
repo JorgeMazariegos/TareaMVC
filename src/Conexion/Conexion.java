@@ -26,7 +26,7 @@ public class Conexion {
 
     public Conexion(){
         InputStream in;
-        String path = "C:\\Users\\Jorge Mazariegos\\Documents\\NetBeansProjects\\DiseñoMVC\\src\\diseñomvc\\DBConfig.properties";
+        String path = "C:\\Users\\i5\\Documents\\NetBeansProjects\\DiseñoMVC\\src\\Conexion\\DBConfig.properties";
         
         try{
             in = Files.newInputStream(Paths.get(path));
